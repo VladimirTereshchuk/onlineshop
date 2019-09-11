@@ -18,6 +18,7 @@ const Header = ({ currentUser, hidden }) => (
     <Link className="logo-container" to="/">
       <Logo className="logo" />
     </Link>
+    <span style={font-size:20px}>This copy from "testBranch" on GitHub</span>
     <div className="options">
       <Link className="option" to="/shop">
         SHOP
